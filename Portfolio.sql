@@ -1,6 +1,8 @@
+------***Covid 19 DATASET FROM 2020-01-01 TO 2022-09-14****------
+
 --SELECT * from dbo.CovidDeaths$ ORDER BY 3,4;
---SElect * from dbo.CovidVaccinations$ ORDEr by 3,4;
---select data that is needed
+--Select * from dbo.CovidVaccinations$ ORDER by 3,4;
+--selecting data that is needed
 select location, date, population, total_cases, new_cases, total_deaths
 from Portfolio_projects.dbo.CovidDeaths$ 
 ORDER BY 1,2
